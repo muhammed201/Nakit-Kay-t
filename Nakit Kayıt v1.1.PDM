@@ -1,0 +1,119 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\system32\Desktop\Nakit Kayýt\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\system32\Desktop\Nakit Kayýt\Nakit Kayýt v1.1.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=Yes
+C:\Windows\System32\msjet40.dll=Yes
+C:\Windows\System32\msjter40.dll=Yes
+C:\Windows\System32\msjint40.dll=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\mswstr10.dll=Yes
+C:\Windows\System32\mswdat10.dll=Yes
+C:\Windows\System32\msrd2x40.dll=Yes
+C:\Windows\System32\msrd3x40.dll=Yes
+C:\Windows\System32\msrepl40.dll=Yes
+C:\Windows\System32\msjtes40.dll=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\System32\msflxgrd.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\system32\Desktop\Nakit Kayýt\Nakit Kayýt v1.1.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\Program Files\Common Files\microsoft shared\DAO\dao360.dll=$(MSDAOPath)
+C:\Windows\System32\msjet40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msjter40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msjint40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\mswstr10.dll=$(WinSysPathSysFile)
+C:\Windows\System32\mswdat10.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msrepl40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\msjtes40.dll=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\System32\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\system32\Desktop\Nakit Kayýt\Nakit Kayýt v1.1.exe=Yes
+C:\Program Files\Microsoft Office\Office12\EXCEL.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Nakit Kayýt v1.1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Nakit Kayýt v1.1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Nakit Kayýt v1.1]
+Icon1="Nakit Kayýt v1.1.exe"
+Title1=Nakit Kayýt v1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Users\system32\Desktop\Nakit Kayýt\Package
+ProjectFolder=C:\Users\system32\Desktop\Nakit Kayýt
+ServerSideCab=
+File1=C:\Users\system32\Desktop\Nakit Kayýt\Package\setup.exe
+File2=C:\Users\system32\Desktop\Nakit Kayýt\Package\Setup.Lst
+File3=C:\Users\system32\Desktop\Nakit Kayýt\Package\Nakit Kayýt v1.1.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
